@@ -7,7 +7,7 @@ interface RoutesLayoutProps {
 export default function RoutesLayout({ children }: RoutesLayoutProps) {
   return (
     <div className="flex flex-col gap-4 p-6">
-      <a href="/" className="flex items-start">
+      <a href="/" className="flex h-10 w-10 items-start">
         <button className="rounded-full bg-zinc-900 p-2 text-red-600 hover:bg-zinc-800">
           <ChevronLeft />
         </button>
