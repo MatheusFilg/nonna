@@ -7,7 +7,7 @@ export default function PizzaDoce() {
         <h1 className="font-popp text-5xl lg:text-7xl">Pizza Doce</h1>
       </div>
 
-      <div className="flex w-[300px] flex-col items-center gap-2 align-middle lg:grid lg:w-[775px] lg:grid-cols-2 lg:gap-4">
+      <div className="flex w-[325px] flex-col items-center gap-2 align-middle lg:grid lg:w-[775px] lg:grid-cols-2 lg:gap-4">
         <MenuItem
           title="Coca cola (500 ml)"
           price="5,99"
