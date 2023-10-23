@@ -1,17 +1,27 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  darkMode: 'class',
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        popp: 'var(--font-poppins)',
+        inter: 'var(--font-inter)',
+      },
+      colors: {
+        darkblue: {
+          700: '#01223b',
+          800: '#011422',
+        },
+        igreen: {
+          700: '#00a651',
+        },
+        ired: {
+          600: '#EC1B21',
+          700: '#AA0000',
+          800: '#8A0000',
+        },
       },
     },
   },
