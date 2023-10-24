@@ -14,12 +14,12 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-x-8 gap-y-6 align-middle lg:grid lg:grid-cols-2">
-        <Card redirect="bebidas" text="BEBIDAS" />
-        <Card redirect="entradas" text="ENTRADAS" />
-        <Card redirect="lanches" text="LANCHES" />
-        <Card redirect="pizza-doce" text="PIZZAS DOCE" />
-        <Card redirect="pizzas" text="PIZZAS" />
-        <Card redirect="sobremesas" text="SOBREMESAS" />
+        <Card redirect="bebidas" text="bebidas" />
+        <Card redirect="entradas" text="entradas" />
+        <Card redirect="lanches" text="lanches" />
+        <Card redirect="pizzas" text="pizzas" />
+        <Card redirect="pizzas-doces" text="pizzas doces" />
+        <Card redirect="sobremesas" text="sobremesa" />
       </div>
     </div>
   )

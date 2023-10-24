@@ -13,7 +13,9 @@ export default function Card({ text, redirect }: CardProps) {
       href={`/${redirect}`}
     >
       <Image src={pizza} alt="" className="h-full w-24 rounded-sm lg:w-36" />
-      <h1 className="font-popp text-3xl leading-relaxed lg:text-5xl">{text}</h1>
+      <h1 className="font-popp text-3xl uppercase leading-relaxed lg:text-[40px]">
+        {text}
+      </h1>
     </a>
   )
 }
