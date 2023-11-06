@@ -10,7 +10,7 @@ export default function Home() {
         <Image
           src={logo}
           alt=""
-          className="h-32 w-32 rounded-full lg:h-36 lg:w-36"
+          className="h-36 w-36 rounded-full lg:h-40 lg:w-40"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-x-8 gap-y-6 align-middle lg:grid lg:grid-cols-2">
